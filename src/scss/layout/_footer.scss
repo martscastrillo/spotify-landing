@@ -6,3 +6,75 @@
   padding: 1rem;
   color: $color-secondary;
 }
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 15px;
+  background-color: black;
+  width: 100vw;
+
+  font-size: 10px;
+  color: #999;
+}
+.footer-list{
+  width: 200px;
+  @media all and (min-width: 480px)  {
+    width: 400px;
+   }
+   @media all and (min-width: 1000px)  {
+     
+   }
+    @media all and (max-width: 1000px)  {
+     
+   }
+}
+.footer-menu-links:hover {
+  color: white;
+}
+
+.footer-menu-items {
+  display: inline-block;
+}
+
+.footer-menu-links {
+  display: inline-block;
+  padding: 7px;
+}
+
+.copy {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  gap: 10px;
+}
+
+.copy-year {
+  margin-top: 5px;
+  margin-bottom: 50px;
+  @media all and (min-width: 480px)  {
+    margin-bottom: 30px;
+   }
+   @media all and (min-width: 1000px)  {
+    margin-bottom: 10px;
+   }
+}
+
+.copy-spain-flag {
+  margin-left: 5px;
+  height: 15px;
+  vertical-align: text-bottom;
+  @media all and (min-width: 1000px)  {
+    margin-top: 10px;
+   }
+
+}
+@media all and (min-width: 480px)  {
+ 
+}
+@media all and (min-width: 1000px)  {
+
+}
+@media all and (max-width: 1000px)  {
+
+}

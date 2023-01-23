@@ -7,3 +7,19 @@
   background-color: #CCC;
   color: #000;
 }
+
+.link {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.link:hover {
+  color: #4bb84a;
+}
+
+.link-signup:before {
+  padding-left: 4px;
+  content: '|';
+  color: white;
+}

@@ -3,3 +3,55 @@
   justify-content: space-evenly;
   margin-bottom: 3rem;
 }
+.header {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  @media all and (min-width: 480px)  {
+    height: 70px;
+   
+   }
+ 
+}
+.hero-title {
+  margin-top: 50px;
+}
+.logo {
+  height: 30px;
+}
+.nav{
+  display: none;
+  @media all and (min-width: 480px)  {
+    display: flex;
+   
+   }
+ 
+   
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+ 
+ color: white;
+ list-style: none;
+ gap: 20px;
+ margin-right: 5px;
+ font-weight: 600;
+ font-size: 10px;
+ @media all and (min-width: 1000px)  {
+  gap: 60px;
+  margin-right: 20px;
+ }
+}
+ .hamb{
+  @media all and (min-width: 480px)  {
+    display: none;
+   }
+
+
+}
